@@ -3,9 +3,9 @@ const fs = require('fs');
 const watch = require('node-watch');
 const markdown_include = require('no1-markdown-include');
 const exec = require('child_process');
-const chapters = path.resolve('D:/Works/Personal/00000043.restify_translate/阅读进度');
-const configs = path.resolve('D:/Works/Personal/00000043.restify_translate/markdown.json');
-const entry = path.resolve('D:/Works/Personal/00000043.restify_translate/总览.md');
+const chapters = path.resolve('D:/Works/Personal/00000043.restify_translate/chapters');
+const configs = path.resolve('D:/Works/Personal/00000043.restify_translate/configs.json');
+const entry = path.resolve('D:/Works/Personal/00000043.restify_translate/includes.md');
 watch(
 	[
 		chapters,
