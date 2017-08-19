@@ -1,0 +1,34 @@
+mkdir markdown-include-sample
+cd markdown-include-sample
+npm install markdown-include -g
+
+vim markdown.json
+
+{
+	"build" : "README.md",
+	"files" : [
+		"inculde.md"
+	]
+}
+
+vim inculde.md
+
+	#include "chapter1.md"
+	#include "chapter2.md"
+	#include "chapter3.md"
+
+vim chapter1.md
+	chapter1 contents
+
+vim chapter2.md
+	chapter2 contents
+
+vim chapter3.md
+	chapter3 contents
+
+markdown-include markdown.json
+
+cat README.md
+	chapter1 contents
+	chapter2 contents
+	chapter3 contents

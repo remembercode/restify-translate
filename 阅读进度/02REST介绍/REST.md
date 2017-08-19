@@ -1,20 +1,3 @@
-# 边翻译边搭建
-## 翻译阅读进度
-
-### 参考资料
-
-1. [restify构建REST服务](http://blog.fens.me/nodejs-restify/)
-1. [Official Server API](http://restify.com/docs/server-api/)
-
-### 当前进度
-	
-	未开启
-	测试..
-
-	
-	
-	
-	
 ## 什么是REST?
 
 	REST(Representational State Transfer表述性状态转移)是一种针对网络应用的设计和开发方式.
@@ -52,23 +35,4 @@
 		npm: 5.3.0
 
 
-
-
-## 创建简单服务
-	cd D:\Works\WorkSpace\ZIYA7_Task
-	npm init
-	
-
-
-
-## 服务端参数
-
-	var restify = require('restify');
-
-	var server = restify.createServer({
-	  certificate: ...,
-	  key: ...,
-	  name: 'MyApp',
-	});
-	
 
