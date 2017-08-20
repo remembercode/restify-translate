@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "no1-markdown-include": "^0.4.4",
+    "no1-markdown-include": "^0.4.6",
     "node-watch": "^0.5.5"
   }
 }

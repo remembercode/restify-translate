@@ -1,6 +1,6 @@
 {
 	"build" : "README.md",
 	"files" : [
-		"includes.md"
+		"main.md"
 	]
 }

@@ -5,7 +5,7 @@ const markdown_include = require('no1-markdown-include');
 const exec = require('child_process');
 const chapters = path.resolve('D:/Works/Personal/00000043.restify_translate/chapters');
 const configs = path.resolve('D:/Works/Personal/00000043.restify_translate/configs.json');
-const entry = path.resolve('D:/Works/Personal/00000043.restify_translate/includes.md');
+const entry = path.resolve('D:/Works/Personal/00000043.restify_translate/main.md');
 watch(
 	[
 		chapters,
